@@ -93,9 +93,10 @@ th{
 
 .about-left{
   width: 60%;
-  margin:auto ;
+  text-align: center;
+  /* margin:0 auto ; */
   padding: 90px;
-  align-items: center;
+  /* align-items: center; */
   position: absolute;
 
 }
@@ -112,6 +113,8 @@ margin-bottom: 30px;
   color: #fff;
   line-height: 2em;
   margin-bottom: 20px;
+  text-align: left;
+  margin-left: 170px;
 }
 
 .about-button{
@@ -124,6 +127,7 @@ margin-bottom: 30px;
     background-color:#fff;
     border-radius:3px;
     color: #000;
+    margin-left: 170px;
 }
 
 
@@ -280,6 +284,15 @@ margin-bottom: 30px;
   line-height: 1.5em; 
   text-align: center;
 }
+
+.cm-left span{
+  font-size: 20px;
+}
+
+.cm-right span{
+  font-size: 20px;
+}
+
 
 .cm-right p{
   position: absolute;
